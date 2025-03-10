@@ -31,7 +31,6 @@ lives = 6
 print(hangman_art.logo)
 
 chosen_word = random.choice(word_list)
-print(chosen_word)
 
 placeholder = "_" * len(chosen_word)
 print("Word to guess: " + placeholder)
