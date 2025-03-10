@@ -3,25 +3,31 @@ import hangman_words
 import hangman_art
 
 """
-# Project: Hangman Game
-### Description:
-This is a Python-based Hangman game that allows users to guess a randomly chosen word by inputting letters. The game 
-tracks the user's progress, showing the word with correctly guessed letters and displaying a visual representation 
-of lives left.
+# Hangman Game
+This Python-based Hangman game lets users guess a random word letter by letter while tracking progress and lives visually.
 
-Features:
-    - Randomly selects a word from a predefined word list (`hangman_words.word_list`).
-    - Displays the word as underscores (`_`) initially, with correctly guessed letters revealed as the game progresses.
-    - Tracks the number of lives, which decrease with each incorrect guess.
-    - Displays ASCII art for visual feedback based on the remaining lives (`hangman_art.stages`).
-    - Prevents repeated guesses from being penalized.
-    - Ends when the player either guesses the entire word or runs out of lives, with a win or lose message displayed.
+## Author
+Pranjal Sarnaik
 
-This game provides a fun and interactive way to practice Python logic, loops, conditionals, and string manipulation.
+## Features
+- Random word selection from a predefined list.  
+- Reveals correctly guessed letters progressively.  
+- Tracks lives and reduces them for incorrect guesses.  
+- Displays ASCII art based on remaining lives.  
+- Prevents penalties for repeated guesses.  
+- Ends with a win/lose message based on game outcome.  
 
-# Level: Intermediate
-Author: Pranjal Sarnaikpi
-Date: 2024-12-02
+## Tech Stack
+Python | Random Module | String Manipulation | Loops | Conditionals | Lists | ASCII Art
+
+## How to Run
+1. Clone the repo:  
+   ```bash  
+   git clone https://github.com/pranjalco/hangman-game-intermediate.git
+
+2. Run:
+    ```bash  
+   python hangman.py
 """
 
 word_list = hangman_words.word_list
